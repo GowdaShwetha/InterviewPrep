@@ -1,0 +1,215 @@
+# Advance Java
+
+# What is Advanced Java?
+
+In the realm of coding, creativity, and state-of-the-art technology have a pivotal role in the domain of software creation. Java is known for its platform independence, robustness, and extensive libraries. Advanced Java concepts let you make really complicated programs, it encompasses an array of technologies, libraries, and various frameworks that are beyond the fundamental principles of Core Java.
+
+Advanced Java
+
+Advanced Java is the collection of technologies and tools that enable developers to create dynamic and secure applications, including features such as JDBC (Java Database Connectivity), Servlets, and JSP (JavaServer Page) are being used for generating and making interactive dynamic content, the most important feature of advanced Java is JPA (Java Persistence API), that is used for managing relational databases, Spring Framework that encompasses the modules for dependency injection, Spring MVC Framework, and AOP (Aspect-Oriented Programming), and Spring Security that ensures the authentication, and authorization of the application.
+
+Prerequisites For Learning Advanced Java
+To learn Advanced Java, it’s important to understand prerequisites thoroughly before deep diving into the more complex topics, as prerequisites will provide a strong foundation for Java, following are some key prerequisites:
+
+
+Core Java Proficiency
+Object-Oriented Programming (OOP)
+Web Development Basics
+Database Fundamentals
+Java Standard Libraries
+Basic Programming Logic
+Understanding of Networking
+Java Techie’s keep in mind that becoming proficient in Advanced Java is a step-by-step journey so, take your time to fully grasp each prerequisite. The prerequisites serve as the solid fundamentals that will help developers to handle the complexities of Advance Java.
+
+Advantages of Advanced Java:
+There are certain Advantages of Advanced Java are mentioned below:
+
+1.Advanced Java has some following advantages with great quality and capabilities, which enhance your Java application
+2.Advanced Java creates Dynamic Web Applications with tools like Servlets, and JSP (JavaServer Page).
+3.It gives Scalability for your Big Java Projects with Enterprise JavaBeans (EJB), so that smoothly your Java application can develop and scale up to handle large workloads.
+4.Having Efficient Data Management with Java Database Connectivity (JDBC).
+5.It gives Reusability of Code and with such advanced frameworks like Spring, that also promotes modular design, and makes your codebase more organised.
+5.Advanced Java supports Integration of Web Services by providing Robust Security, and Fast Development process.
+
+Syllabus of Advanced Java:
+
+1. Java Enterprise Edition (Java EE):
+Java Enterprise Edition (Java EE), now known as Jakarta EE, it’s an remarkable component of Advanced Java programming. It gives Scalability for Big-League applications, that provides a smooth pattern to create applications that could grow seamlessly as your user base expands. Basically, it’s designed to help developers create powerful, scalable, and robust enterprise-level applications. So, let’s delve into what Java EE brings in the context of Advanced Java.
+
+a. Java Servlets
+Java Servlets are the magic behind the scenes of web applications in Advanced Java, it’s used to create dynamic and interactive web pages. Servlets create web dynamic pages, have the great feature for User Interaction that quickly creates responses that match your actions. Servlets act as a fast messenger between your web browser and servlet. Servlet manages users request and response, as the servlet receives users request, it processes and sends back a tailored response in an instant to the users – all in the blink of an eye.
+
+b. JavaServer Pages (JSP)
+JSP stands for “JavaServer Pages” which is used to build web applications that make your online experience more interesting. JSP creates the web pages that can change and adapt as per the user command like what user is giving input and dynamically adjust according to the user input that renders the dynamic content. JSP efficiently integrates Java into HTML pages, where you have an option to convert any pre-existing HTML pages by modifying its extension to “.jsp” instead of “.html” JPS reduces the length of your code, and makes it easy to maintain without having the need of redeployment and recompilation as it’s platform independent.
+
+c. JavaServer Faces (JSF)
+JSF stands for “JavaServer Faces” that encompasses a collection of APIs (Application Programming Interfaces) that simplify and streamline web pages user-friendly, and interactive. JSF uses a building block method, where developers can pick and arrange UI components like buttons, forms, and tables to create complete web pages. JSP abstracts the complexities of web development by encapsulating the intricate behaviours, and allowing developers to focus on combining UI components. JSF operates on servers as well processing user interactions and generates the appropriate content to render, it gives seamless integration in Advanced Java and assemble dynamic event-driven, and user-friendly interfaces.
+
+d. Enterprise JavaBeans (EJB)
+Enterprise JavaBeans (EJB) are the specialised components that handle complex business logics and processes in Advanced Java. They manage scalability, secure transactions, and efficient data processing that could tackle complex business tasks. EJB ensures that your data is saved correctly, and if something goes wrong it undo the modification to maintain overall consistency, also EJB executes tasks in the correct sequence. EJB works in a unified system as it allows applications to distribute among different computers. It has control over who can have access to the application, and ensures security guards by protecting data that keeps unauthorised users out. EJB manages complex logic, handles transactions, and ensures scalability. By using EJB, it creates powerful business software.
+
+2. Concurrency
+Concurrency having the ability in Advanced Java to execute multiple tasks simultaneously, that runs independently and concurrently by allowing different programs. Concurrency plays an important role as it maximises the performance, enhances responsiveness, in simpler terms concurrency implements multiple tasks at once, it has the synchronisation that prevents the data corruption and race conditions, and deadlocks. Concurrency is vital in modern software development where Java provides thread-safe collections like ConcurrentMap and ConcurrentQueue that are accessed by multiple threads concurrently.
+
+Example: Ticket Booking
+Imagine you are a developer and designing an online ticket booking functionality, where many users are trying to book tickets concurrently, and your aim is to guarantee a seamless booking encounter for the respective users.
+
+
+3. Multithreading
+Multithreading is the process of having several tasks running together parallelly within the same program, it improves the responsiveness to keep users interface responsive by saving the time while performing time-consuming tasks in the background simultaneously that divides a large task into smaller parts, that could run concurrently. Multithreading has Java API features that creates and manages thread easily. In Advanced Java by using multithreading in applications developers can create more fast, secure, responsive, and capable, so that could handle complex tasks efficiently.
+
+4. JDBC
+JDBC stands for “Java Database Connectivity” which is a very essential component in Advanced Java for interacting with databases. JDBC connects with various relational databases that executes the queries, and manipulates the data with the help of Java APIs (Application Programming Interfaces). JDBC allows the Java program to interact with the databases to retrieve information, store the data, and update the data. In order to overcome the problems by using JDBC directly,Spring framework has provided one abstraction layer on top of existing JDBC technology, we used to call this layer as Spring-JDBC. Following are the step-by-step connection of JDBC (Java Database Connectivity):
+
+1. Load the JDBC driver
+Class.forName(“com.mysql.cj.jdbc.Driver”);
+
+2. Establish a Connection
+String url = “jdbc:mysql://localhost:3306/mydatabase”;
+String username = “user”;
+String password = “password”;
+Connection connection = DriverManager.getConnection(url, username, password);
+
+3. Creating a Statement
+Statement statement = connection.createStatement();
+
+4. Execute SQL Queries
+String sqlQuery = “SELECT * FROM employees”;
+ResultSet resultSet = statement.executeQuery(sqlQuery);
+
+5. Process Results
+while (resultSet.next()) {
+String name = resultSet.getString(“name”);
+int age = resultSet.getInt(“age”);
+}
+
+6. Close Resources
+resultSet.close();
+statement.close();
+connection.close();
+
+7. Handle Exceptions
+try {
+
+} catch (SQLException e) {
+e.printStackTrace();
+}
+
+5. Java Persistence API (JPA)
+Java Persistence API is a collection of classes and methods to persist or store the vast amount of data into a database. JPA is a specification to store or manage Java objects or classes into the databases, which use Object-Relational Mapping (ORM) as implementation internally to persist the database. JPA Persistence framework needs to follow:
+
+Spring Data JPA: Spring Data JPA provides a higher-level abstraction layer on the top of JPA that reduces the amount of boilerplate code needed for common database operations.
+Spring Repository: It is a JPA specific extension for Repository, it has full API CRUD Repository also the Paging and Sorting Repository. So basically, the JPA repository contains APIs for basic CRUD operations, the APIs for pagination and the APIs for Sorting.
+6. Spring Framework
+IT is a popular non-standard open-source framework developed by Interface21 INC.
+Aims to overcome the application problems by enabling the use of simple Java Beans(POJO-Plain Old Java Objects) to implement the business logic.
+Enables the developers to create and test the application very easily.
+Aims to minimise the dependency of application code on its framework.
+Enables the use of simplicity and ease of testability in standard application.
+The Spring Framework has a layered architecture made up of several well defined modules.
+Features of Spring Framework:
+1. Pluggability
+It allows us to associate and remove business layer objects with each other with the help of configuration files.
+Spring requires you to make changes in the XML configuration file and run the application again to take effect.
+2. Dependency Injection
+It allows you to lose coupling by creating the business layer objects based on the description in the spring configuration file.
+As a result, it eases the maintenance and testing of an application.
+3. Container
+The spring framework is a container that holds all the application objects.
+It is responsible for managing the life cycle and configuration of all the application objects.
+The container creates objects,which are defined in configuration files and associate them together.
+4. Lightweight
+Spring is a lightweight framework that makes it easy to configure and create complex applications.
+It consists of several well-defined modules,built upon the concept of DI.
+The Spring Framework Provides Two Type of Container:
+Bean Factory is a simple container that provides support for DI.
+Application Context is built upon the concept of the bean factory container and provides other functionality such as AOP and Internationalisation.
+7. Hibernate
+Hibernate is a Java Persistence Framework. Persistence is the availability of the object/data even after the process that created it,is terminated.
+
+There are 4 layers in the hibernate architecture:
+
+Java application layer
+Hibernate framework layer
+Backend API layer
+Database layer
+For creating the first application, we need to know the elements of hibernate architecture, they are as follows:
+
+SessionFactory: The SessionFactory is a factory of session and client of ConnectionProvider.It holds a second level cache(optional) of data. This provides a factory method to obtain a session object.
+Session: The session object provides an interface between the application and data stored into the database. It holds first level cache(mandatory) of data.
+Java Applications can use the Hibernate framework as the persistence layer for storing and retrieving plain old java objects(POJos) to/from a relational database. Hibernate is a persistence framework that provides tools for object relational mapping(ORM)
+
+1. load(): The load method takes a class object and loads the state into a newly instantiated instance of that class, in persistence state.
+Student s = (Student)session.load(Student.class,2);
+
+It throws an unrecoverable exception such as ObjectNotFoundException if there is no database matching row.
+No database hit occurs with load()
+
+2. get(): use get method if you are not sure that a matching row exists It hits the database immediately and returns null if there is no matching row.
+
+3. save(): To save the object
+
+4. saveOrUpdate(): Update or save an object
+
+5. delete(): Delete an object and make it transient again.
+
+8. Java Messaging Service (JMS)
+Java Messaging Service (JSM) is an important component in Advanced Java that enables efficient communication between various software components using a messaging paradigm. It facilitates the functionality to exchange the information without need of direct or immediate interaction, components do not depend on each other’s availability. JMS is built on the concept of a messaging system where components can send and receive messages; this operates independently. P2P communication, messages are being sent from one producer to one consumer, each message is consumed by only one consumer. JMS enables asynchronous communications, it provides decoupling where components can communicate with each other, and promotes loose coupling.
+
+9. Java Security
+The term ‘Security’ means to ensure that your application is secured, and it checks for valid users if they login, it may login successfully if the user is authorised, but if the user is invalid then it is denied access to the application. So basically, it works on two scenarios i.e. Authentication, and Authorization. It is a good practice that is designed to enhance the security of Java applications and the Java Runtime Environment (JRE). Java supports secure communication through protocoles like SSL/TLS, that enables encrypted data exchange over the network. Java application implements various authentication methods, such as username/password, tokens. You understand JSON as a data text format,you may be wondering What are tokens? To put it simply,a token is a string of data that represents something else,such as an identity. In the case of authentication, a non-JWT based token is a string of characters that allows the receiver to validate the sender’s identity. When we create REST controllers,where every method is independent(no session management), or Single-Sign-On (SSO) and manages authorization to control access to specific functionalities.
+
+10. Java Design Patterns
+Java Design Patterns are the reusable solutions to common problems that frequently arise during the software designing and development phase. It provides methods and recommendations for structuring and organising code to attain quality and to achieve maintainability, scalability, and flexibility.
+
+Some commonly used Java Design Pattern: Creational Patterns
+Singleton
+Factory Method
+Abstract Factory
+Builder
+Prototype
+Some commonly used Java Design Pattern: Structural Patterns:
+Adaptor
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Some commonly used Java Design Pattern: Behavioural Patterns:
+Observer
+Strategy
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+State
+Template Method
+Visitor
+What is the Difference Between Core Java and Advanced Java?
+Core Java
+Advanced Java
+Core Java covers the basic fundamentals of the Java Programming Language and makes your foundation strong including syntax, data types, and basic programming constructs.
+
+Advanced Java covers technologies like JavaServer Pages (JSP) and servlets for creating dynamic web applications.
+
+Core Java is the Object-Oriented Programming (OOP) that emphasises class, object, inheritance, and encapsulation.
+
+Advanced Java introduces its frameworks like Spring, and Hibernate.
+
+Core Java establishes some basic libraries like ‘java.lang’ package, string manipulation, and exception handling for the basic operations.
+
+Advanced Java establishes Java Database Connectivity (JDBC) for interacting with the databases.
+
+Core Java introduces multithreading, that includes the creation of thread and basic synchronisation.
+
+Advanced Java uses technologies like SOAP and REST for creating and consuming web services.
+
+Core Java handles exceptions by using ‘try-catch’ blocks as well as, you can create custom exceptions.
+
+Advanced Java uses Design Patterns that create well-structured and maintainable code.
+
+
+
+
+
