@@ -6,5 +6,7 @@
 [MS website accessibility](https://careers.microsoft.com/v2/global/en/accessibility.html)
 
 [MS LeetCode](https://leetcode.com/problem-list/55vr69d7/)
+[MS1](https://military.microsoft.com/mssa/#MSSA-pillars)
+[MS2](https://leap.microsoft.com/en-US/)
 
 [All Company question](https://gist.github.com/krishnadey30/88c4e2f601e96597974c00185e479532)
