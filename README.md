@@ -12,3 +12,5 @@
 [MS2](https://leap.microsoft.com/en-US/)
 
 [All Company question](https://gist.github.com/krishnadey30/88c4e2f601e96597974c00185e479532)
+
+[Python in 30 days](https://github.com/HalilDeniz/Python30Days)
