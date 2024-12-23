@@ -15,4 +15,4 @@
 
 [Python in 30 days](https://github.com/HalilDeniz/Python30Days)
 
-[shradh sheet] (https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?gid=0#gid=0)
+[shradh sheet](https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?gid=0#gid=0)
