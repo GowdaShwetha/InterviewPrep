@@ -14,3 +14,5 @@
 [All Company question](https://gist.github.com/krishnadey30/88c4e2f601e96597974c00185e479532)
 
 [Python in 30 days](https://github.com/HalilDeniz/Python30Days)
+
+[shradh sheet] (https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?gid=0#gid=0)
