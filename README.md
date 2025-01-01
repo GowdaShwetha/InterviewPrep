@@ -27,6 +27,6 @@ Devpost, HackerEarth, MLH(Major League Hacking)
 Google kick start, TCS code vita, Microsoft Imagine Cup
 
 # Certification
-Azure Fundamentals
-AWS certification
+Azure Fundamentals,
+AWS certification,
 Hackerrank skill badges
