@@ -1,4 +1,4 @@
-# InterviewPrep
+;# InterviewPrep
 
 [All Company interview questions](https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file)
 
@@ -30,3 +30,13 @@ Google kick start, TCS code vita, Microsoft Imagine Cup
 Azure Fundamentals,
 AWS certification,
 Hackerrank skill badges
+
+# AI Projects
+AI-powered solution with a clear use case.
+Tools/technologies used(python, tensorflow, scilit-learn)
+
+# participation
+Memberships like Google developer group, Microsoft learn student amn=bassador, local coding group
+
+# OpenSource
+Hacttoberfest or google project issue.
