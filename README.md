@@ -34,6 +34,11 @@ Hackerrank skill badges
 # AI Projects
 AI-powered solution with a clear use case.
 Tools/technologies used(python, tensorflow, scilit-learn)
+Foundation of AI and ML
+AI and Machine Learning algorithms and Techniques
+Building Intelligent TroubleShoot Agents
+Microsoft Azute for AI and Machine Learning
+Advanced AI and Machine Learning Techniques and Capstone
 
 # participation
 Memberships like Google developer group, Microsoft learn student amn=bassador, local coding group
