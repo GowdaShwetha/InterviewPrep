@@ -45,3 +45,8 @@ Memberships like Google developer group, Microsoft learn student amn=bassador, l
 
 # OpenSource
 Hacttoberfest or google project issue.
+
+# AWS Practitioner Essentional
+(https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
+
+# Cloud 
