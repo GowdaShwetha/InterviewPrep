@@ -2,9 +2,6 @@
 
 [All Company interview questions](https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file)
 
-# STAR Method
-Cracking the coding interview by Gayle Lakmaan McDowell
-
 [Microsoft interview](https://www.geeksforgeeks.org/microsoft-topics-interview-preparation/)
 [MS website accessibility](https://careers.microsoft.com/v2/global/en/accessibility.html)
 
@@ -26,7 +23,10 @@ Cracking the coding interview by Gayle Lakmaan McDowell
 Devpost, HackerEarth, MLH(Major League Hacking)
 
 # System Design 
-  System Design primer(github), watch Groaking system desgin
+  System Design primer(GitHub), watch Groaking system design
+
+# STAR Method
+  Cracking the coding interview by Gayle Lakmaan McDowell
 
 # Certification
 
