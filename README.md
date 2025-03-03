@@ -48,7 +48,6 @@ Advanced AI and Machine Learning Techniques and Capstone
 
 # participation
 Memberships like Google developer group, Microsoft learn student amn=bassador, local coding group
-
 # OpenSource
 Hacttoberfest or google project issue.
 
