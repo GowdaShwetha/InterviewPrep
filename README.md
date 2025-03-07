@@ -54,4 +54,4 @@ Hacttoberfest or google project issue.
 # AWS Practitioner Essentional
 https://d0.awsstatic.com/whitepapers/aws-overview.pdf
 
-# Cloud 
+# Cloud
